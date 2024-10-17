@@ -1,4 +1,25 @@
-html <picture> <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png"> <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"> <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" style="width: 100%; max-width: 600px; height: auto;"> </picture> 
-
-
-html <style> .image-container { position: relative; overflow: hidden; border-radius: 10px; /* Скругление углов */ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для глубины */ } img { width: 100%; height: auto; transition: transform 0.5s ease; /* Плавный эффект при загрузке */ } img:hover { transform: scale(1.05); /* Увеличение при наведении */ } </style> <div class="image-container"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png"> <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"> <img alt="Иллюстрация солнца в светлом режиме и луны со звездами в темном режиме." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"> </picture> </div>
+html 
+<style> 
+  .image-container { 
+    position: relative;
+    overflow: hidden; 
+    border-radius: 10px; /* Скругление углов 
+    */ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для глубины */ 
+  } 
+  img { 
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.5s ease; /* Плавный эффект при загрузке */ 
+  } 
+  img:hover { 
+    transform: scale(1.05); /* Увеличение при наведении */ 
+  } 
+</style> 
+<div class="image-container"> 
+  <picture> 
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"> 
+    <img alt="Иллюстрация солнца в светлом режиме и луны со звездами в темном режиме." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png"> 
+  </picture> 
+</div>
