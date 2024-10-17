@@ -1,20 +1,3 @@
-html 
-<style> 
-  .image-container { 
-    position: relative;
-    overflow: hidden; 
-    border-radius: 10px; /* Скругление углов 
-    */ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для глубины */ 
-  } 
-  img { 
-    width: 100%; 
-    height: auto; 
-    transition: transform 0.5s ease; /* Плавный эффект при загрузке */ 
-  } 
-  img:hover { 
-    transform: scale(1.05); /* Увеличение при наведении */ 
-  } 
-</style> 
 <div class="image-container"> 
   <picture> 
     <source media="(prefers-color-scheme: dark)" 
